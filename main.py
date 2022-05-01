@@ -12,8 +12,3 @@ cv2.waitKey(0)
 # Wait infinite amount of times until a button is pressed to move on from the line
 cv2.destroyAllWindows()
 # Destroy all windows
-print()
-
-
-
-
