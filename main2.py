@@ -1,6 +1,8 @@
 import cv2
 
-img = cv2.imread('assets/simp.jpg', 0)
+img = cv2.imread('assets/simp.jpg', -1)
 
-print(type(img))
+#in cv2, instead of the standard RGB representation, it uses BGR
+print(img.shape)
+
 
