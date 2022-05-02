@@ -26,5 +26,3 @@ while True:
 # Other softwares such as OBS can now use this capture.
 cap.release()
 cv2.destroyAllWindows()
-
-
